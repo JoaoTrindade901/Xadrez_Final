@@ -31,16 +31,17 @@ O projeto implementa as principais regras do xadrez, incluindo **roque**, **prom
 
 src/
 ├── model/
-│ ├── board/ # Classes do tabuleiro (Board, Position, Move)
-│ ├── pieces/ # Classes das peças (King, Queen, Rook, Bishop, Knight, Pawn)
-│ └── Piece.java # Classe base para todas as peças
+│   ├── board/            # Classes do tabuleiro (Board, Position, Move)
+│   ├── pieces/           # Classes das peças (King, Queen, Rook, Bishop, Knight, Pawn)
+│   └── Piece.java        # Classe base para todas as peças
 │
 ├── controller/
-│ └── Game.java # Lógica principal do jogo
-  └── ChessAI.java # IA para jogar contra
+│   ├── Game.java         # Lógica principal do jogo
+│   └── ChessAI.java      # IA para jogar contra
 │
-└── Resources/
-  └── pieces # imagens das peças do jogo
-  └── sounds # Sons do jogo (não adicionado)  
+├── resources/
+│   ├── pieces/           # Imagens das peças do jogo
+│   └── sounds/           # Sons do jogo (a implementar)
+│
 └── view/
-└── ChessGUI.java # Interface gráfica com Swing
+    └── ChessGUI.java     # Interface gráfica com Swing
